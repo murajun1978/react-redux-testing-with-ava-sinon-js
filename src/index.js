@@ -1,13 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends Component{
-  render(){
-    return(
-     <div>
-       <h1>Hello VAV + Sinon.js</h1>
-     </div>
-    )
-  }
-}
+import App from './containers/App';
+
 ReactDOM.render(<App />, document.getElementById('root'));
