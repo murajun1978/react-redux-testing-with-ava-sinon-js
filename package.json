@@ -1,7 +1,7 @@
 {
   "name": "react-redux-testing-with-ava-sinon-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "private":true,
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --color --progress",
